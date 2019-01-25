@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 import {Link} from 'gatsby'
 import { styles } from '../../../utils'
-import { NONAME } from 'dns';
+
 
 export default class NavbarLinks extends Component {
   state={

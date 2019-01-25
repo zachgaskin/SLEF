@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
 import logo from '../../../images/logo.svg'
-import { FaAlignRight } from 'react-icons/Fa'
+import {FaAlignRight} from 'react-icons/fa'
 import styled from 'styled-components'
 
 export default class NavbarHeader extends Component {
@@ -14,7 +14,7 @@ export default class NavbarHeader extends Component {
             </Link>
             <FaAlignRight
                 className="toggle-icon" 
-                onClick={() => {
+                onClick={()=>{
                     handleNavbar()
                 }}
             />
@@ -39,4 +39,3 @@ const HeaderWrapper = styled.div`
       }
   }
 `
-

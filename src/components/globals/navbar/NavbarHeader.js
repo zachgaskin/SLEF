@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
 import logo from '../../../images/logo.svg'
-import { FaAlignRight, FaAutoprefixer } from 'react-icons/Fa'
+import { FaAlignRight } from 'react-icons/Fa'
 import styled from 'styled-components'
 
 export default class NavbarHeader extends Component {

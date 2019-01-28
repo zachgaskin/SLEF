@@ -58,6 +58,26 @@ li {
   padding: 0.5rem 1rem 0.5rem 1rem;
   color: ${styles.colors.mainGrey};
   font-weight: 700;
+  teaxt-transform: capitalize;
+  curser: pointer;
+  ${styles.transDefault};
+  &: hover{
+    background: ${styles.colors.mainGrey};
+    color: ${styles.colors.mainOrange};
+    padding: 0.5rem 1rem 0.5rem 1.3rem;
+  }
+}
+height: ${props => (props.open ? '152px' : '0px')};
+overflow: hidden;
+${styles.transObject({})}
+@media (min-width:768px){
+  height: auto;
+  display: flex;
+  margin: 0 auto;
+  .nav-link: hover{
+    background: ${styles.colors.mainWhite};
+    padding: 0.5rem 1rem 0.5rem 1rem;
+  }
 }
 `
 

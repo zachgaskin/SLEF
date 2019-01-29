@@ -15,7 +15,7 @@ export default class NavbarLinks extends Component {
       {
         id:1,
         path: '/aboutus',
-        name: 'aboutus'
+        name: 'about us'
       },
       {
         id:2,

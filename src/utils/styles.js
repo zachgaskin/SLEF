@@ -14,3 +14,11 @@ export const transObject = ({
 }) => {
     return 'transition: ${property} ${time} ${type}'
 }
+
+export const transFunction = (
+    property = 'all',
+    time = '0.5s',
+    type = 'linear',
+) => {
+    return 'transition:${property} ${time} ${type}'
+}

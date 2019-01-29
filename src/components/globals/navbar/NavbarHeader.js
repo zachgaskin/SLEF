@@ -37,6 +37,6 @@ const HeaderWrapper = styled.div`
 `
 
 const HeaderImg = styled.img`
-width: 125px;
+width: 150px;
 height: auto;
 `

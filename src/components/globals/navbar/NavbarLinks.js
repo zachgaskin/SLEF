@@ -14,13 +14,13 @@ export default class NavbarLinks extends Component {
       },
       {
         id:1,
-        path: '/aboutus',
+        path: '/about',
         name: 'about us'
       },
       {
         id:2,
         path: '/signup',
-        name: 'signup'
+        name: 'sign up'
       },
       {
         id:3,

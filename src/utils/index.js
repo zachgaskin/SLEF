@@ -1,5 +1,3 @@
 import * as styles from './styles'
-
-
-
-export { styles }
+import { HomeHeader } from './header'
+export { styles, HomeHeader }

@@ -9,7 +9,7 @@ function HomeHeader({img,children}) {
 }
 
 const IndexHeader = styled.header`
-  min-height: calc(100vh);
+  min-height: calc(100vh - 111.609px);
   background: url(${props => props.img}) center/cover fixed no-repeat;
   display: flex;
   justify-content: center;

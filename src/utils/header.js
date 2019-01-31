@@ -1,24 +1,43 @@
 import React from 'react'
 import styled from 'styled-components'
-import img from '../images/bcg/HeaderHome.svg'
+import img from '../images/bcg/mightymite.jpg'
 
 function HomeHeader({img,children}) {
   return <IndexHeader img={img}>
       {children}
   </IndexHeader>
 }
-
-const IndexHeader = styled.header`
-  min-height: calc(100vh - 111.609px);
-  background: url(${props => props.img}) center/cover fixed no-repeat;
-  display: flex;
-  justify-content: center;
-  align-item: center;
-`
-HomeHeader.defaultProps = {
-  img:img
+function PageHeader({ img, children }) {
+  return <DefaultHeader img={img}>
+    {children}
+  </DefaultHeader>
 }
 
-export { HomeHeader }
+const IndexHeader = styled.header`
+  min-height: calc(100vh - 109.5px);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(${props => props.img}) center/cover fixed no-repeat;
+  background-position: auto 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-// url(${props => props.img})
+
+  @media (min-width: 768px) {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(${props => props.img}) center/cover fixed no-repeat;
+    background-position: left 50px;
+  }
+`
+
+const DefaultHeader = styled(IndexHeader)`
+min-height: 60vh;
+`
+HomeHeader.defaultProps = {
+  img:img,
+}
+PageHeader.defaultProps = {
+  img: img,
+}
+export { HomeHeader, PageHeader }
+

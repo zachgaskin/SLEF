@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import {HomeHeader} from '../utils'
-import img from '../images/bcg/HeaderHome.svg'
+import img from '../images/bcg/mightymite.jpg'
 
 const IndexPage = () => (
   <Layout>

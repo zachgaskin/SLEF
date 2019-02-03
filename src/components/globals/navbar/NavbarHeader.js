@@ -1,22 +1,27 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
 import logo from '../../../images/LetterLogo2.svg'
-import {FaAlignRight} from 'react-icons/fa'
+import { FaAlignRight } from 'react-icons/fa'
 import styled from 'styled-components'
 import { styles } from '../../../utils'
 
 export default class NavbarHeader extends Component {
-  render () {
-    const {handleNavbar} = this.props
-    return <HeaderWrapper>
+  render() {
+    const { handleNavbar } = this.props
+    return (
+      <HeaderWrapper>
         <Link to="/">
-            <HeaderImg src={logo} alt="SLEF" />
+          <HeaderImg src={logo} alt="SLEF" />
         </Link>
-        <FaAlignRight className="toggle-icon" onClick={() => {
+        <FaAlignRight
+          className="toggle-icon"
+          onClick={() => {
             handleNavbar()
-          }} />
+          }}
+        />
       </HeaderWrapper>
-    }
+    )
+  }
 }
 
 const HeaderWrapper = styled.div`
@@ -27,7 +32,7 @@ const HeaderWrapper = styled.div`
   .toggle-icon {
     font-size: 1.75rem;
     color: ${styles.colors.mainOrange};
-    curser: pointer;
+    cursor: pointer;
   }
   @media (min-width: 768px) {
     .toggle-icon {
@@ -37,6 +42,6 @@ const HeaderWrapper = styled.div`
 `
 
 const HeaderImg = styled.img`
-width: 220px;
-height: auto;
+  width: 220px;
+  height: auto;
 `

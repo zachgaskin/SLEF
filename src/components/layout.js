@@ -1,15 +1,19 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import {createGlobalStyle} from 'styled-components'
-import Navbar from './globals/navbar/Navbar';
+import { createGlobalStyle } from 'styled-components'
+import Navbar from './globals/navbar/Navbar'
+import Footer from './globals/Footer'
 //import './layout.css'
 
-const Layout = ({children}) =>{
-  return <React.Fragment>
-  <GlobalStyle/>
-  <Navbar />
-  {children}
-  </React.Fragment>
+const Layout = ({ children }) => {
+  return (
+    <React.Fragment>
+      <GlobalStyle />
+      <Navbar />
+      {children}
+      <Footer />
+    </React.Fragment>
+  )
 }
 
 const GlobalStyle = createGlobalStyle`

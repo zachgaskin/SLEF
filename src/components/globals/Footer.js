@@ -43,7 +43,7 @@ const FooterWrapper = styled.footer`
   padding: 2rem 0;
   background: ${styles.colors.mainBlack};
   .icons {
-    width: 10rem;
+    width: 1.5rem;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -64,7 +64,7 @@ const FooterWrapper = styled.footer`
   }
   .title {
     text-align: center;
-    width: 10rem;
+    width: 11rem;
     color: ${styles.colors.mainOrange};
     text-transform: uppercase;
     padding: 0.3rem 1rem;

@@ -2,15 +2,11 @@ import React from 'react'
 import styled from 'styled-components'
 import img from '../images/bcg/mightymite.jpg'
 
-function HomeHeader({img,children}) {
-  return <IndexHeader img={img}>
-      {children}
-  </IndexHeader>
+function HomeHeader({ img, children }) {
+  return <IndexHeader img={img}>{children}</IndexHeader>
 }
 function PageHeader({ img, children }) {
-  return <DefaultHeader img={img}>
-    {children}
-  </DefaultHeader>
+  return <DefaultHeader img={img}>{children}</DefaultHeader>
 }
 
 const IndexHeader = styled.header`
@@ -21,23 +17,15 @@ const IndexHeader = styled.header`
   display: flex;
   justify-content: center;
   align-items: center;
-
-
-  @media (min-width: 768px) {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(${props => props.img}) center/cover fixed no-repeat;
-    background-position: left 50px;
-  }
 `
 
 const DefaultHeader = styled(IndexHeader)`
-min-height: 60vh;
+  min-height: 60vh;
 `
 HomeHeader.defaultProps = {
-  img:img,
+  img: img,
 }
 PageHeader.defaultProps = {
   img: img,
 }
 export { HomeHeader, PageHeader }
-

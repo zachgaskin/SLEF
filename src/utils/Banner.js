@@ -13,6 +13,7 @@ export default function Banner({ title, subtitle, children }) {
 }
 
 const BannerWrapper = styled.div`
+  display: block;
   margin-bottom: 3rem;
   text-align: center;
   .title {
@@ -29,6 +30,7 @@ const BannerWrapper = styled.div`
     text-transform: capitalize;
   }
 `
+
 Banner.defaultProps = {
   title: 'default title',
 }

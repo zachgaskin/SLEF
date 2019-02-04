@@ -1,14 +1,12 @@
 import React, { Component } from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import { PageHeader, Banner } from '../utils'
+import Singnupform from '../components/SignUpForm/Signupform'
 
 const SignupPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <PageHeader>
-      <Banner title="Sign Up" subtitle="Youth Football & Cheer" />
-    </PageHeader>
+    <Singnupform />
   </Layout>
 )
 

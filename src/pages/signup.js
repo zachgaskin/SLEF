@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import Singnupform from '../components/SignUpForm/Signupform'
 
 const SignupPage = () => (
   <Layout>

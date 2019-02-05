@@ -14,6 +14,7 @@
     "gatsby-plugin-sharp": "^2.0.14",
     "gatsby-plugin-styled-components": "^3.0.4",
     "gatsby-remark-responsive-iframe": "^2.0.9",
+    "gatsby-remark-wrap-iframe": "^1.1.0",
     "gatsby-source-filesystem": "^2.0.8",
     "gatsby-transformer-remark": "^2.2.3",
     "gatsby-transformer-sharp": "^2.1.8",

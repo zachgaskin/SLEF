@@ -4,10 +4,12 @@ import styled from 'styled-components'
 export default class Signupform extends Component {
   render() {
     return (
-      <FormWrapper>
+      <FormWrapper className="gatsby-resp-iframe-wrapper">
         <iframe
           className="iframe_container"
           src="https://littleeaglefootball.forms-db.com/embed.php?id=11477"
+          width="850"
+          height="850"
           onload="javascript:parent.scrollTo(0,0);"
           allowTransparency="true"
           frameborder="0"
@@ -28,11 +30,4 @@ export default class Signupform extends Component {
 
 const FormWrapper = styled.div`
   text-align: center;
-  .iframe-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
 `

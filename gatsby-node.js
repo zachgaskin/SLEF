@@ -17,3 +17,6 @@ exports.onCreateWebpackConfig = ({ actions }) => {
     },
   })
 }
+module.exports = {
+  target: 'node',
+}

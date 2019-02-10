@@ -1,13 +1,9 @@
 import React from 'react'
 
 class MachForm extends React.Component {
-  componentDidMount() {
-    document.getElementById('machform')
-  }
-
   render() {
     return (
-      <div id="machform">
+      <div id="mform">
         <div
           id="mf_placeholder"
           data-formurl="https://littleeaglefootball.forms-db.com/embed.php?id=11477"

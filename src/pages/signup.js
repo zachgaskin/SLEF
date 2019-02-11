@@ -1,12 +1,12 @@
 import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import MachForm from '../components/SignUpForm/MForm'
+import MFApp from '../components/SignUpForm/MFApp'
 
 const SignupPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <MachForm />
+    <MFApp />
   </Layout>
 )
 

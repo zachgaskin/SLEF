@@ -31,7 +31,7 @@ class MFApp extends React.Component {
           </div>
         ),
       })
-    }, 1000)
+    }, 10)
   }
 
   componentDidMount() {

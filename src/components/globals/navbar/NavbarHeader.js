@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
-import logo from '../../../images/LetterLogo2.svg'
+import logo from '../../../images/SLEF_LogoE2.svg'
 import { FaAlignRight } from 'react-icons/fa'
 import styled from 'styled-components'
 import { styles } from '../../../utils'
@@ -42,6 +42,6 @@ const HeaderWrapper = styled.div`
 `
 
 const HeaderImg = styled.img`
-  width: 220px;
+  width: 250px;
   height: auto;
 `

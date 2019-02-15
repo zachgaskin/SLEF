@@ -4,6 +4,7 @@ import SEO from '../components/seo'
 import { HomeHeader, Banner, BannerButton } from '../utils'
 import img from '../images/bcg/mightymite.jpg'
 import QuickInfo from '../components/HomePageComponents/QuickInfo'
+import Gallery from '../components/HomePageComponents/Gallery'
 import { Link } from 'gatsby'
 
 const IndexPage = () => (
@@ -17,6 +18,7 @@ const IndexPage = () => (
       </Banner>
     </HomeHeader>
     <QuickInfo />
+    <Gallery />
   </Layout>
 )
 

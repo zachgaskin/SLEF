@@ -37,7 +37,7 @@ export default function Gallery() {
                   </div>
                 )
               })}
-            </GalleryWrapper>{' '}
+            </GalleryWrapper>
           </Section>
         )
       }}
@@ -80,13 +80,13 @@ const GalleryWrapper = styled.div`
     grid-template-areas:
       'one one two two'
       'one one three three';
-    .item-1 {
+    .item-3 {
       grid-area: one;
     }
-    .item-2 {
+    .item-1 {
       grid-area: two;
     }
-    .item-3 {
+    .item-2 {
       grid-area: three;
     }
   }

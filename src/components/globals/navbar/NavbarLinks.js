@@ -13,8 +13,8 @@ export default class NavbarLinks extends Component {
       },
       {
         id: 1,
-        path: '/aboutus',
-        name: 'about us',
+        path: '/about',
+        name: 'about',
       },
       {
         id: 2,
@@ -55,9 +55,9 @@ const LinkWrapper = styled.ul`
     padding: 0.5rem 1rem 0.5rem 1rem;
     color: ${styles.colors.mainGrey};
     font-weight: 700;
-    teaxt-transform: capitalize;
-    curser: pointer;
-    ${styles.transDefault};
+    text-transform: capitalize;
+    cursor: pointer;
+    ${styles.transDefault}
     &: hover {
       background: ${styles.colors.mainGrey};
       color: ${styles.colors.mainOrange};

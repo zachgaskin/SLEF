@@ -24,7 +24,6 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list" }
 
-  - collections:
   - label: "Pages"
     name: "pages"
     files:

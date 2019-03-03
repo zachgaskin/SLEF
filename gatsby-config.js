@@ -4,6 +4,7 @@ module.exports = {
     description: `Youth football and cheerleading program`,
     author: `@gatsbyjs`,
   },
+  ///////////////
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
@@ -61,7 +62,6 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
-    'gatsby-plugin-purgecss', // must be after other CSS plugins
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 }

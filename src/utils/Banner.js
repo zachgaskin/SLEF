@@ -20,7 +20,7 @@ const BannerWrapper = styled.div`
     color: ${styles.colors.mainWhite};
     font-size: 3rem;
     text-transform: uppercase;
-    ${styles.letterSpacing({ spacing: '0.75rem' })};
+    ${styles.letterSpacing({ spacing: '0.35rem' })};
   }
   .subtitle {
     color: ${styles.colors.mainWhite};

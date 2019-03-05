@@ -57,21 +57,22 @@ const LinkWrapper = styled.ul`
     font-weight: 700;
     text-transform: capitalize;
     cursor: pointer;
-    ${styles.transDefault}
-    &: hover {
+    ${styles.transDefault};
+    &:hover {
       background: ${styles.colors.mainGrey};
       color: ${styles.colors.mainOrange};
       padding: 0.5rem 1rem 0.5rem 1.3rem;
     }
   }
-  height: ${props => (props.open ? '152px' : '0px')};
+  height: ${props => (props.open ? 'auto' : '0px')};
   overflow: hidden;
+  margin-bottom: 0;
   ${styles.transObject({})}
   @media (min-width:768px) {
     height: auto;
     display: flex;
     margin: 0 auto;
-    .nav-link: hover {
+    .nav-link &:hover {
       background: ${styles.colors.mainWhite};
       padding: 0.5rem 1rem 0.5rem 1rem;
     }

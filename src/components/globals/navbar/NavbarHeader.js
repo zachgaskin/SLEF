@@ -25,7 +25,8 @@ export default class NavbarHeader extends Component {
 }
 
 const HeaderWrapper = styled.div`
-  padding: 0.4rem 1rem;
+  height: 100px;
+  padding: 0.4rem 0.4rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -44,4 +45,6 @@ const HeaderWrapper = styled.div`
 const HeaderImg = styled.img`
   width: 250px;
   height: auto;
+  display: flex;
+  padding-top: 1rem;
 `

@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import { Section } from '../utils'
-import aboutImg from '../images/bcg/muddybuddy.jpg'
+import aboutImg from '../images/bcg/muddybuddy2.jpg'
 import { PageHeader, Banner } from '../utils'
 
 export default ({ data }) => {

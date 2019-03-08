@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+
 import img from '../images/bcg/mightymite.jpg'
 
 function HomeHeader({ img, children }) {

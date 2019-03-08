@@ -7,6 +7,7 @@ export const colors = {
 }
 
 export const transDefault = 'transition:all 0.5s ease-in-out'
+
 export const transObject = ({
   property = 'all',
   time = '0.5s',
@@ -15,12 +16,12 @@ export const transObject = ({
   return 'transition: ${property} ${time} ${type}'
 }
 
-export const transFunction = (
+export const transFunction = ({
   property = 'all',
   time = '0.5s',
-  type = 'linear'
-) => {
-  return 'transition:${property} ${time} ${type}'
+  type = 'linear',
+}) => {
+  return 'transition: ${property} ${time} ${type}'
 }
 
 export const letterSpacing = ({ spacing = '0.1rem' }) => {

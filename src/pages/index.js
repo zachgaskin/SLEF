@@ -6,7 +6,6 @@ import img from '../images/bcg/mightymite2.jpg'
 import QuickInfo from '../components/HomePageComponents/QuickInfo'
 import Gallery from '../components/HomePageComponents/Gallery'
 import { Link } from 'gatsby'
-import Img from '../components/img'
 
 const IndexPage = () => (
   <Layout>

@@ -31,6 +31,7 @@ module.exports = {
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-polyfill-io`,
     {
       resolve: `gatsby-plugin-styled-components`,
       options: {

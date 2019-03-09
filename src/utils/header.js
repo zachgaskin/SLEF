@@ -13,7 +13,7 @@ const IndexHeader = styled.header`
   min-height: calc(100vh - 109.5px);
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(${props => props.img}) center/cover fixed no-repeat;
-  background-position: absolute;
+  background-position: 50%;
   display: flex;
   justify-content: center;
   align-items: center;

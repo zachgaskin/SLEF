@@ -17,7 +17,6 @@ const IndexPage = () => (
         </Link>
       </Banner>
     </HomeHeader>
-
     <QuickInfo />
     <Gallery />
   </Layout>

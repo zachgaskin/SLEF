@@ -37,12 +37,8 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-polyfill-io`,
-      options: {
-        features: [`Array.prototype.map`, `fetch`],
-      },
-    },
+    `gatsby-plugin-polyfill-io`,
+
     {
       resolve: `gatsby-plugin-styled-components`,
       options: {

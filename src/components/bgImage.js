@@ -41,10 +41,13 @@ const StyledBackgroundSection = styled(BackgroundSection)`
   justify-content: center;
   align-items: center;
   object-fit: contain;
-  .gatsby-background-image-#{$className}:before,
+  .gatsby-background-image-#{$className}:before {
+    background-attachment: fixed;
+    background-position: center center;
+  }
   .gatsby-background-image-#{$className}:after {
     background-attachment: fixed;
-    background-position: center;
+    background-position: center center;
   }
 `
 export default StyledBackgroundSection

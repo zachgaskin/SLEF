@@ -13,7 +13,9 @@ exports.onClientEntry = () => {
     typeof testImg.style.objectFit === `undefined` ||
     typeof testImg.style.objectPosition === `undefined`
   ) {
-    require(`object-fit-images`)()
+    import('object-fit-images').then(({ default: ObjectFitImages }) =>
+      ObjectFitImages()
+    )
     console.log(`👍 Object-fit/Object-position are polyfilled`)
   }
 }

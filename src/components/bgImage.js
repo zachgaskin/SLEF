@@ -10,7 +10,7 @@ const BackgroundSection = ({ className }) => (
       query {
         desktop: file(relativePath: { eq: "bcg/mightymite2.jpg" }) {
           childImageSharp {
-            fluid(quality: 100, maxWidth: 4160) {
+            fluid(quality: 100, maxWidth: 6000) {
               ...GatsbyImageSharpFluid_withWebp
             }
           }
@@ -36,7 +36,6 @@ const StyledBackgroundSection = styled(BackgroundSection)`
   min-height: calc(100vh - 109.5px);
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   background-repeat: no-repeat;
-  background-position: auto 100%;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -45,6 +44,7 @@ const StyledBackgroundSection = styled(BackgroundSection)`
   .gatsby-background-image-#{$className}:before,
   .gatsby-background-image-#{$className}:after {
     background-attachment: fixed;
+    background-position: center;
   }
 `
 export default StyledBackgroundSection

@@ -34,7 +34,7 @@ const BackgroundSection = ({ className }) => (
 
 const StyledBackgroundSection = styled(BackgroundSection)`
   min-height: calc(100vh - 109.5px);
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;

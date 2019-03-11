@@ -29,14 +29,16 @@ module.exports = {
       },
     },
     `gatsby-transformer-remark`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-plugin-polyfill-io`,
+      resolve: `gatsby-image`,
       options: {
-        features: [`Array.prototype.map`, `fetch`],
+        loadPolyfills: true,
       },
     },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-polyfill-io`,
+
     {
       resolve: `gatsby-plugin-styled-components`,
       options: {

@@ -13,16 +13,21 @@ export const transObject = ({
   time = '0.5s',
   type = 'ease-in-out',
 }) => {
-  return 'transition: ${property} ${time} ${type}'
+  return `transition: ${property} ${time} ${type}`
 }
 
 export const transFunction = ({
   property = 'all',
   time = '0.5s',
+<<<<<<< HEAD
   type = 'linear',
 }) => {
   return 'transition: ${property} ${time} ${type}'
 }
+=======
+  type = 'linear'
+) => `transition:${property} ${time} ${type}`
+>>>>>>> 94893099fea605711ed82f628a6a259dfe3d4e59
 
 export const letterSpacing = ({ spacing = '0.1rem' }) => {
   return `letter-spacing:${spacing}`

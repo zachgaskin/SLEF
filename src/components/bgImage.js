@@ -40,15 +40,17 @@ const StyledBackgroundSection = styled(BackgroundSection)`
   display: flex;
   justify-content: center;
   align-items: center;
-  object-fit: contain;
+  font-family: "object-fit: cover; object-position: 50% 50%"
 
   .gatsby-background-image-#{$className}:before {
     background-attachment: fixed;
     background-position: center center;
+    font-family: "object-fit: cover; object-position: 50% 50%"
   }
   .gatsby-background-image-#{$className}:after {
     background-attachment: fixed;
     background-position: center center;
+    font-family: "object-fit: cover; object-position: 50% 50%"
   }
 `
 export default StyledBackgroundSection

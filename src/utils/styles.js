@@ -19,8 +19,10 @@ export const transObject = ({
 export const transFunction = ({
   property = 'all',
   time = '0.5s',
-  type = 'linear'
-) => `transition:${property} ${time} ${type}`
+  type = 'linear',
+}) => {
+  return `transition:${property} ${time} ${type}`
+}
 
 export const letterSpacing = ({ spacing = '0.1rem' }) => {
   return `letter-spacing:${spacing}`

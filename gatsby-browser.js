@@ -1,32 +1,19 @@
 exports.onClientEntry = () => {
-  return new Promise((resolve, reject) => {
-    window.__polyfillio__ = () => {
-      resolve()
-    }
+  // NOTE: Don't polyfill Promise here (Gatsby already includes a Promise polyfill)
 
-    const features = []
+  // IntersectionObserver polyfill for gatsby-image (Safari, IE)
+  if (typeof window.IntersectionObserver === `undefined`) {
+    require(`intersection-observer`)
+    console.log(`👍 IntersectionObserver is polyfilled`)
+  }
 
-    if (!('Intl' in window)) {
-      const locale = window.location.pathname.split('/')[1]
-      features.push(`Intl.~locale.${locale}`)
-    }
-
-    if (!('fetch' in window)) {
-      features.push('fetch')
-    }
-
-    // ... detect other missing features
-
-    if (features.length) {
-      const s = document.createElement('script')
-      s.src = `https://cdn.polyfill.io/v2/polyfill.min.js?features=${features.join(
-        ','
-      )}&rum=1&flags=always&callback=__polyfillio__`
-      s.async = true
-      s.onerror = reject
-      document.head.appendChild(s)
-    } else {
-      resolve()
-    }
-  })
+  // Object-fit/Object-position polyfill for gatsby-image (IE)
+  const testImg = document.createElement(`img`)
+  if (
+    typeof testImg.style.objectFit === `undefined` ||
+    typeof testImg.style.objectPosition === `undefined`
+  ) {
+    require(`object-fit-images`)()
+    console.log(`👍 Object-fit/Object-position are polyfilled`)
+  }
 }

@@ -1,12 +1,9 @@
-exports.onClientEntry = () => {
-  // NOTE: Don't polyfill Promise here (Gatsby already includes a Promise polyfill)
-
-  // IntersectionObserver polyfill for gatsby-image (Safari, IE)
-  if (typeof window.IntersectionObserver === `undefined`) {
-    require(`intersection-observer`)
-    console.log(`👍 IntersectionObserver is polyfilled`)
+export const onClientEntry = async () => {
+    if (typeof IntersectionObserver === `undefined`) {
+      await import(`intersection-observer`);
+    }
   }
-
+  
   // Object-fit/Object-position polyfill for gatsby-image (IE)
   const testImg = document.createElement(`BackgroundImage`)
   if (

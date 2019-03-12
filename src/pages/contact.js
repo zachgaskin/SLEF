@@ -10,6 +10,7 @@ const ContactPage = () => (
     <PageHeader img={contactImg}>
       <Banner title="Contact Us" subtitle="Youth Football & Cheer" />
     </PageHeader>
+    <QuickInfo />
   </Layout>
 )
 

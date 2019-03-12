@@ -1,33 +1,34 @@
 import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import StyledBackgroundSection from '../components/bgImage'
-import styled from 'styled-components'
+import { graphql } from 'gatsby'
+import Billboard from '../components/billboard'
+//import StyledBackgroundSection from '../components/bgImage'
 
-//import QuickInfo from '../components/HomePageComponents/QuickInfo'
-//import Gallery from '../components/HomePageComponents/Gallery'
+import QuickInfo from '../components/HomePageComponents/QuickInfo'
+import Gallery from '../components/HomePageComponents/Gallery'
 
-const IndexPage = () => (
+const IndexPage = props => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <BGWrapper>
-      <StyledBackgroundSection />
-    </BGWrapper>
+    {/*<StyledBackgroundSection />*/}
+    <Billboard fluid={props.data.desktop.childImageSharp.fluid} />
 
-    <div>
-      <p>
-        Hello World
-        sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-      </p>
-    </div>
-    {/*<QuickInfo /> 
-    <Gallery />*/}
+    <QuickInfo />
+    <Gallery />
   </Layout>
 )
 
-const BGWrapper = styled.div`
-  min-height: calc(100vh - 109.5px);
-  font-family: 'object-fit: cover; object-position: 50% 50%';
-`
-
 export default IndexPage
+
+export const pageQuery = graphql`
+  query {
+    desktop: file(relativePath: { eq: "bcg/mightymite2.jpg" }) {
+      childImageSharp {
+        fluid(quality: 100, maxWidth: 6000) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+  }
+`

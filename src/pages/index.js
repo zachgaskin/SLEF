@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import StyledBackgroundSection from '../components/bgImage'
 
-import QuickInfo from '../components/HomePageComponents/QuickInfo'
+//import QuickInfo from '../components/HomePageComponents/QuickInfo'
 import Gallery from '../components/HomePageComponents/Gallery'
 
 const IndexPage = () => (
@@ -11,7 +11,6 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <StyledBackgroundSection />
     <div>
-      <QuickInfo />
       <Gallery />
     </div>
     {/*<QuickInfo /> 

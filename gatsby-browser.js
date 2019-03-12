@@ -8,7 +8,7 @@ exports.onClientEntry = () => {
   }
 
   // Object-fit/Object-position polyfill for gatsby-image (IE)
-  const testImg = document.createElement(`img`)
+  const testImg = document.createElement(`BackgroundImage`)
   if (
     typeof testImg.style.objectFit === `undefined` ||
     typeof testImg.style.objectPosition === `undefined`

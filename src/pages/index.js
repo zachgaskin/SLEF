@@ -2,17 +2,18 @@ import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { graphql } from 'gatsby'
-import Billboard from '../components/billboard'
+//import Billboard from '../components/billboard'
 //import StyledBackgroundSection from '../components/bgImage'
 
 import QuickInfo from '../components/HomePageComponents/QuickInfo'
 import Gallery from '../components/HomePageComponents/Gallery'
+import BillboardImg from '../components/billboard'
 
 const IndexPage = props => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     {/*<StyledBackgroundSection />*/}
-    <Billboard fluid={props.data.desktop.childImageSharp.fluid} />
+    <BillboardImg fluid={props.data.desktop.childImageSharp.fluid} />
 
     <QuickInfo />
     <Gallery />

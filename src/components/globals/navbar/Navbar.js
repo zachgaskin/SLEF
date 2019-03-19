@@ -25,6 +25,11 @@ export default class Navbar extends Component {
 }
 
 const NavWrapper = styled.nav`
+  overflow: hidden;
+  background-color: #ffffff;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
   @media (min-width: 768px) {
     display: flex;
     align-items: center;

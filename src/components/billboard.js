@@ -2,6 +2,16 @@ import React from 'react'
 import Image from 'gatsby-image'
 import styled from 'styled-components'
 
+const BWrapper = styled.header`
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  position: fixed;
+  background-position: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+`
+
 const StyledImg = styled(Image)`
   position: absolute;
   top: 0;
@@ -9,6 +19,7 @@ const StyledImg = styled(Image)`
   width: 100%;
   z-index: -1;
   height: ${props => props.height || 'auto'};
+  
   &> img {
     object-fit: ${props => props.fit || 'cover'} !important;
     object-position: ${props => props.position || '50% 50%'} !important;
@@ -16,18 +27,6 @@ const StyledImg = styled(Image)`
       props.fit || 'cover'} !important; object-position: ${props =>
   props.position || '50% 50%'} !important;'
   }
-`
-
-const BWrapper = styled.header`
-  min-height: calc(100vh - 109.5px);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 `
 
 const BillboardImg = props => (

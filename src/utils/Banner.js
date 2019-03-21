@@ -13,6 +13,11 @@ export default function Banner({ title, subtitle, children }) {
 }
 
 const BannerWrapper = styled.div`
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: auto;
   display: block;
   margin-bottom: 3rem;
   text-align: center;

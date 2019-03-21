@@ -9,18 +9,20 @@ import { BannerButton, Banner } from '../utils'
 
 import QuickInfo from '../components/HomePageComponents/QuickInfo'
 import Gallery from '../components/HomePageComponents/Gallery'
+import Hero from '../utils/hero'
 
 const IndexPage = props => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     {/*<StyledBackgroundSection />*/}
-    <BillboardImg fluid={props.data.desktop.childImageSharp.fluid}>
+    <Hero>
+      <BillboardImg fluid={props.data.desktop.childImageSharp.fluid} />
       <Banner title="SOMERSET" subtitle="Youth Football & Cheer">
         <Link to="/signup/" style={{ textDecoration: 'none' }}>
           <BannerButton style={{ margin: '2rem auto' }}>Sign Up</BannerButton>
         </Link>
       </Banner>
-    </BillboardImg>
+    </Hero>
 
     {/*<BgImage fluid={props.data.desktop.childImageSharp.fluid}>
       <h2 style={{ color: 'white' }}>Look at me!</h2>

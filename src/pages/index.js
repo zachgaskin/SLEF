@@ -5,11 +5,11 @@ import { graphql } from 'gatsby'
 import BillboardImg from '../components/billboard'
 import { Link } from 'gatsby'
 import { BannerButton, Banner } from '../utils'
+import Hero from '../utils/hero'
 //import StyledBackgroundSection from '../components/bgImage'
 
 import QuickInfo from '../components/HomePageComponents/QuickInfo'
 import Gallery from '../components/HomePageComponents/Gallery'
-import Hero from '../utils/hero'
 
 const IndexPage = props => (
   <Layout>

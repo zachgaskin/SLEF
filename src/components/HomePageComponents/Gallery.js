@@ -49,8 +49,10 @@ const GalleryWrapper = styled.div`
   display: grid;
   grid-template-columns: auto;
   grid-row-gap: 1rem;
+
   .item {
     position: relative;
+    z-index: -1;
   }
   .info {
     position: absolute;

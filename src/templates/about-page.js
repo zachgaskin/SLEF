@@ -1,17 +1,17 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
-import { Section } from '../utils'
-import aboutImg from '../images/bcg/muddybuddy2.jpg'
-import { PageHeader, Banner } from '../utils'
+import BillboardImg from '../components/billboard'
+import { Section, Hero, Banner } from '../utils'
 
 export default ({ data }) => {
   const post = data.markdownRemark
   return (
     <Layout>
-      <PageHeader img={aboutImg}>
-        <Banner title="About Us" subtitle="Youth Football & Cheer" />
-      </PageHeader>
+      <Hero>
+        <BillboardImg fluid={props.data.desktop.childImageSharp.fluid} />
+        <Banner title="ABOUT US" subtitle="Youth Football & Cheer" />
+      </Hero>
       <Section>
         <div>
           <h1>{post.frontmatter.title}</h1>
@@ -28,6 +28,17 @@ export const query = graphql`
       html
       frontmatter {
         title
+      }
+    }
+  }
+`
+export const pageQuery = graphql`
+  query {
+    desktop: file(relativePath: { eq: "bcg/muddybuddy2.jpg" }) {
+      childImageSharp {
+        fluid(quality: 100, maxWidth: 6000) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
       }
     }
   }

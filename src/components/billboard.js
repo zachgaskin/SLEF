@@ -22,7 +22,6 @@ const StyledImg = styled(Image)`
 const BillboardImg = props => (
   <BWrapper>
     <StyledImg {...props} />
-    {props.children}
   </BWrapper>
 )
 

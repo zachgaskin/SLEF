@@ -2,12 +2,10 @@ import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { graphql } from 'gatsby'
-import BillboardImg from '../components/billboard'
 import { Link } from 'gatsby'
 import { BannerButton, Banner } from '../utils'
 import Hero from '../utils/hero'
-//import StyledBackgroundSection from '../components/bgImage'
-
+import BillboardImg from '../components/billboard'
 import QuickInfo from '../components/HomePageComponents/QuickInfo'
 import Gallery from '../components/HomePageComponents/Gallery'
 
@@ -23,10 +21,6 @@ const IndexPage = props => (
         </Link>
       </Banner>
     </Hero>
-
-    {/*<BgImage fluid={props.data.desktop.childImageSharp.fluid}>
-      <h2 style={{ color: 'white' }}>Look at me!</h2>
-    </BgImage>*/}
     <QuickInfo />
     <Gallery />
   </Layout>

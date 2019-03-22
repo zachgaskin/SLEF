@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 const BWrapper = styled.header`
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
-  position: fixed;
+  position: relative;
   background-position: 50%;
   display: flex;
   justify-content: center;
@@ -32,6 +32,7 @@ const StyledImg = styled(Image)`
 const BillboardImg = props => (
   <BWrapper>
     <StyledImg {...props} />
+    {props.children}
   </BWrapper>
 )
 export default BillboardImg

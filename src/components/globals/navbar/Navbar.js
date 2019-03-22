@@ -25,6 +25,7 @@ export default class Navbar extends Component {
 }
 
 const NavWrapper = styled.nav`
+  z-index: 1;
   overflow: hidden;
   background-color: #ffffff;
   position: fixed; /* Set the navbar to fixed position */

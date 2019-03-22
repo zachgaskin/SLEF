@@ -8,12 +8,15 @@ import { graphql } from 'gatsby'
 import QuickInfo from '../components/HomePageComponents/QuickInfo'
 import Gallery from '../components/HomePageComponents/Gallery'
 import BillboardImg from '../components/billboard'
+import { Banner } from '../utils'
 
 const IndexPage = props => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     {/*<StyledBackgroundSection />*/}
-    <BillboardImg fluid={props.data.desktop.childImageSharp.fluid} />
+    <BillboardImg fluid={props.data.desktop.childImageSharp.fluid}>
+      <Banner title="SOMERSET" subtitle="Youth Football & Cheer" />
+    </BillboardImg>
 
     <QuickInfo />
     <Gallery />

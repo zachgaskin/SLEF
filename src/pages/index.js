@@ -17,7 +17,7 @@ const IndexPage = props => (
       <BillboardImg fluid={props.data.desktop.childImageSharp.fluid} />
       <Banner title="SOMERSET" subtitle="Youth Football & Cheer">
         <Link to="/signup/" style={{ textDecoration: 'none' }}>
-          <BannerButton style={{ margin: '2rem auto' }}>Sign Up</BannerButton>
+          <BannerButton style={{ margin: '1rem auto' }}>Sign Up</BannerButton>
         </Link>
       </Banner>
     </Hero>

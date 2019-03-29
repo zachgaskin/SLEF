@@ -4,7 +4,8 @@ import Banner from './Banner'
 import { BannerButton, SectionButton } from './Button'
 import { Section } from './Section'
 import { Title } from './Title'
-import { Hero } from './hero'
+import Hero from './hero'
+
 export {
   styles,
   HomeHeader,

@@ -1,15 +1,15 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
-import BillboardImg from '../components/billboard'
 import { Section, Hero, Banner } from '../utils'
+import AboutBGI from '../components/AboutBGI'
 
 export default ({ data }) => {
   const post = data.markdownRemark
   return (
     <Layout>
       <Hero>
-        <BillboardImg fluid={props.data.desktop.childImageSharp.fluid} />
+        <AboutBGI />
         <Banner title="ABOUT US" subtitle="Youth Football & Cheer" />
       </Hero>
       <Section>
@@ -28,17 +28,6 @@ export const query = graphql`
       html
       frontmatter {
         title
-      }
-    }
-  }
-`
-export const pageQuery = graphql`
-  query {
-    desktop: file(relativePath: { eq: "bcg/muddybuddy2.jpg" }) {
-      childImageSharp {
-        fluid(quality: 100, maxWidth: 6000) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
       }
     }
   }

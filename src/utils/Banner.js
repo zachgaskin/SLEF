@@ -26,6 +26,30 @@ const BannerWrapper = styled.div`
     font-size: 3rem;
     text-transform: uppercase;
     ${styles.letterSpacing({ spacing: '0.35rem' })};
+    @media (max-width: 768px) {
+      font-size: 2.5rem;
+      padding-top: 20px;
+    }
+    @media (max-width: 572px) {
+      font-size: 2rem;
+      padding-top: 20px;
+    }
+    @media (max-width: 472px) {
+      font-size: 1.75rem;
+      padding-top: 20px;
+    }
+    @media (max-width: 415px) {
+      font-size: 1.5rem;
+      padding-top: 100px;
+    }
+    @media (max-width: 375px) {
+      font-size: 1.4rem;
+      padding-top: 100px;
+    }
+    @media (max-width: 325px) {
+      font-size: 1.15rem;
+      padding-top: 100px;
+    }
   }
   .subtitle {
     color: ${styles.colors.mainWhite};
@@ -33,6 +57,21 @@ const BannerWrapper = styled.div`
     ${styles.letterSpacing({ spacing: '0.15rem' })};
     font-size: 1.5rem;
     text-transform: capitalize;
+    @media (max-width: 768px) {
+      font-size: 1.3rem;
+    }
+    @media (max-width: 572px) {
+      font-size: 1.2rem;
+    }
+    @media (max-width: 472px) {
+      font-size: 1.1rem;
+    }
+    @media (max-width: 415px) {
+      font-size: 1rem;
+    }
+    @media (max-width: 325px) {
+      font-size: 0.8rem;
+    }
   }
 `
 

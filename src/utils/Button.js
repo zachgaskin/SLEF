@@ -28,7 +28,7 @@ const BannerButton = styled.button`
     font-size: 1.1rem;
   }
   @media (max-width: 415px) {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   @media (max-width: 330px) {
     font-size: 0.7rem;

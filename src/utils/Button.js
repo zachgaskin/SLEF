@@ -30,8 +30,8 @@ const BannerButton = styled.button`
   @media (max-width: 415px) {
     font-size: 1rem;
   }
-  @media (max-width: 325px) {
-    font-size: 0.8rem;
+  @media (max-width: 330px) {
+    font-size: 0.7rem;
   }
 `
 const SectionButton = styled(BannerButton)`

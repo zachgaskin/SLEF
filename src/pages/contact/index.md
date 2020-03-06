@@ -4,7 +4,7 @@ title: Contact Us
 ---
 ## Email:
 
-[info@littleeaglefootball.com](info@littleeaglefootball.com)
+<info@littleeaglefootball.com>
 
 ## Mailing Address:
 

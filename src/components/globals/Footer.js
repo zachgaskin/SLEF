@@ -32,7 +32,8 @@ export default class Footer extends Component {
           })}
         </div>
         <p className="copyright">
-          copyright &copy; 2019 Somerset Little Eagle Football
+          copyright &copy; {new Date().getFullYear()} Somerset Little Eagle
+          Football
         </p>
       </FooterWrapper>
     )
@@ -41,7 +42,7 @@ export default class Footer extends Component {
 
 const FooterWrapper = styled.footer`
   padding: 2rem 0;
-  background: ${styles.colors.mainBlack};
+  background: ${styles.colors.mainGrey};
   .icons {
     width: 1.5rem;
     display: flex;
@@ -53,7 +54,7 @@ const FooterWrapper = styled.footer`
     font-size: 1.3rem;
     ${styles.transition({})};
     &:hover {
-      color: ${styles.colors.mainYellow};
+      color: ${styles.colors.mainOrange};
     }
   }
   .copyright {

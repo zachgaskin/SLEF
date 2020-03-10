@@ -13,7 +13,9 @@ export default Thankyou => {
       <Section>
         <div>
           <h1 className="text-center">Thank You!</h1>
-          <h4>Now that you're signed up, here are some important things.</h4>
+
+          <h2>Now that you've signed up, here are some important things.</h2>
+          <h4>You will receive an email about your transaction</h4>
           <br />
           <h2>Physicals</h2>
           <p>

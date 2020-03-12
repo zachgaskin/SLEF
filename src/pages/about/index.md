@@ -4,13 +4,9 @@ title: About Us
 ---
 Somerset Little Eagle Football & Cheer participates in the Laurel Highlands Developmental Football League ([LHDFL](http://lhdfl.com/)). We have tackle football teams at grade levels 1-6 with a season beginning in August and ending in October. 
 
-
-
 ## MISSION
 
 Our mission is to provide high level developmental football and cheer programs. 
-
-
 
 ## OBJECTIVES
 
@@ -20,37 +16,25 @@ To ensure a safe and positive playing environment for all participants.
 
 To instill life-long values of teamwork, dedication and a superior work ethic in the classroom and on the playing field.
 
-## 
-
 ## VOLUNTEERS
 
 We are an "all volunteer" organization and have many dedicated members who meet monthly throughout the year to make sure our season runs smoothly for all involved. Throughout the season we will ask, and appreciate those, individuals that step up for jobs that make this all work.
-
-
 
 ## COACHES
 
 Our coaches are dedicated to the mission of the organization and spend tremendous time developing the skills necessary for the season and beyond. Collaborations with the varsity program and time spent in educational clinics ensure that our coaches are passing on the latest and safest skills. All coaches are required to have recent clearances, including child abuse and criminal background certificates, and complete concussion awareness training.
 
-
-
 Child Abuse Clearance - [click here](http://www.dhs.pa.gov/cs/groups/webcontent/documents/form/s_001762.pdf)
-
-
 
 Pennsylvania State Police Clearance - [click here](https://epatch.state.pa.us/Home.jsp)
 
-
-
 Concussion Awareness Training - [click here](https://www.cdc.gov/headsup/youthsports/coach.html)
 
-
+## PLAYERS
 
 EXPECTATION OF ALL PLAYERS
 
 Players are expected to fulfill the following obligations and expectations:
-
-
 
 Arrival to practices and games on time.
 
@@ -62,21 +46,13 @@ Display respectful behavior toward the coaches and teammates at all times.
 
 Somerset Little Eagle Football & Cheer, along with the coaching staff, reserves the right to reduce playing time or ask a player not to participate if any of the above mentioned expectations are not met. 
 
-
-
 [Physical Form](https://drive.google.com/file/d/1lVSbeAOD5KbewneenmrxsuAs560iZvKf/view?usp=sharing)
-
-
 
 ## CODE OF CONDUCT
 
 The Somerset Little Eagle Football organization strives to provide a safe and fun learning environment for our youth football players and cheerleaders. Our expectation is that all involved will abide by the code of conduct and recognize that this is not an exhaustive list. Violations of this code of conduct or any act deemed unbecoming shall be investigated by the executive board and penalties may be imposed.
 
-
-
 ## Parent, Guardian or Spectator
-
-
 
 Encourage good sportsmanship by demonstrating positive support for all participants.
 
@@ -96,8 +72,6 @@ Be modest in victory and gracious in defeat.
 
 ## Coaches
 
-
-
 Be a positive role model.
 
 Teach and practice good sportsmanship at games, practices and league events.
@@ -111,8 +85,6 @@ Communicate well with all involved.
 Be modest in victory and gracious in defeat.
 
 ## Players
-
-
 
 Demonstrate good sportsmanship at all times.
 

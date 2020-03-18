@@ -9,7 +9,7 @@ export default class QuickInfo extends Component {
       <Section>
         <Title message="Let Us Tell You" title="Our Mission" />
         <QuickInfoWrapper>
-          <p className="text">
+          <p className="text-center">
             Our mission is to provide high level developmental football and
             cheer programs.
           </p>

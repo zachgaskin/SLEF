@@ -23,6 +23,11 @@ export default class NavbarLinks extends Component {
       },
       {
         id: 3,
+        path: '/fields',
+        name: 'fields',
+      },
+      {
+        id: 4,
         path: '/contact',
         name: 'contact',
       },

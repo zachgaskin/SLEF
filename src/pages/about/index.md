@@ -2,11 +2,12 @@
 templateKey: about-page
 title: About Us
 ---
-Somerset Little Eagle Football & Cheer participates in the Laurel Highlands Developmental Football League ([LHDFL](http://lhdfl.com/)). We have tackle football teams at grade levels 1-6 with a season beginning in August and ending in October. 
+
+Somerset Little Eagle Football & Cheer participates in the Laurel Highlands Developmental Football League ([LHDFL](http://lhdfl.com/)). We have tackle football teams at grade levels 1-6 with a season beginning in August and ending in October.
 
 ## MISSION
 
-Our mission is to provide high level developmental football and cheer programs. 
+Our mission is to provide high level developmental football and cheer programs.
 
 ## OBJECTIVES
 
@@ -44,9 +45,9 @@ Put forth a reasonable effort at both practices and games.
 
 Display respectful behavior toward the coaches and teammates at all times.
 
-Somerset Little Eagle Football & Cheer, along with the coaching staff, reserves the right to reduce playing time or ask a player not to participate if any of the above mentioned expectations are not met. 
+Somerset Little Eagle Football & Cheer, along with the coaching staff, reserves the right to reduce playing time or ask a player not to participate if any of the above mentioned expectations are not met.
 
-[Physical Form](https://drive.google.com/file/d/1lVSbeAOD5KbewneenmrxsuAs560iZvKf/view?usp=sharing)
+[Physical Form](https://drive.google.com/file/d/1xM_LaYQ0UGx6HOIwWvgHuatbz2sdhkXn/view?usp=sharing)
 
 ## CODE OF CONDUCT
 
